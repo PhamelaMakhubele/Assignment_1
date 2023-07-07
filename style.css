@@ -120,6 +120,7 @@ p:hover{
     height: 300px;
     border-radius: 12px;
     margin-left: 5px;
+    transition: 2s;
 
 }
 button{
