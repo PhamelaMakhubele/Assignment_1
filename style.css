@@ -1,0 +1,224 @@
+:root{
+    --primary:lavender;
+    --secondary:plum;
+
+}
+
+
+.container{
+    width:1500px;
+    height: max-content;
+    border: 1px solid plum;
+    border-radius: 2px;
+    background-color: var(--primary);
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 40px;
+    padding-right: 80px;
+   
+   
+   
+}
+header{
+    position: sticky;
+
+}
+.headerSec{
+    display: inline;
+    padding: 35px;
+    
+    
+}
+.logo{
+    border-radius: 100px;
+    width: 150px;
+    height: 75px;
+    border: 1px solid var(--secondary);
+   
+  
+}
+
+.headings{
+    color:purple;
+    text-align: center;
+}
+
+.heading{
+    color:purple;
+    
+}
+
+
+nav{
+    float: right;
+    
+}
+a{
+    margin: 7px;
+    color:purple;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: var(--secondary);
+}
+
+.first{
+    display: flex;
+    padding: 35px;
+    padding-top: 80px;
+   
+}
+
+.firstSec{
+    content: center;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    
+}
+p:hover{
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    color: slateblue;
+    
+
+}
+
+
+.tastement{
+
+    padding-left: 300px;
+    padding-right: 200px;
+    justify-content: center;
+    
+}
+.image{
+    width: 250px;
+    height:250px ;
+    border-radius: 8px;
+    
+   
+}
+.picture{
+    width: 500px;
+    height: 650px;
+    border-radius: 12px;
+    margin-left: 170px;
+    transition: height 2s;
+}
+.picture:hover{
+    height: 500px;
+    
+}
+
+
+.pictures{
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    margin-left: 5px;
+
+}
+button{
+    border-radius: 4px;
+   
+    margin: 10px;
+    padding: 15px;
+    border-color: var(--secondary);
+
+}
+.primary{
+    width: 300px;
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+.secondary{
+    width: 300px;
+    background-color: azure;
+    cursor: pointer;
+  
+
+
+}
+.section-container{
+    display: flex;
+    text-align: center;
+    padding: 35px;
+    margin: 75px;
+}
+.arti{
+  border: 12px;  
+  margin: 14px;
+  padding: 7px;
+  
+
+}
+.art{
+    width: 400px;
+    height: 400px;
+    margin: 14px;
+    padding: 7px;
+    border: 2px solid var(--secondary);
+    border-radius: 75px;
+}
+.review{
+    display: flex;
+    padding: 35px;
+    margin: 30px;
+
+}
+.texts{
+    text-align: justify;
+    
+   
+}
+
+.reviewImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
+    margin: 15px;
+    padding:25px ;
+}
+
+footer{
+    display: flex;
+    padding: 40px;
+    background-color:var(--primary);
+    width: 1500px;
+    padding-right: 100px;
+    padding-left: 20px;
+    margin: 20px;
+    margin-top: 0px;
+    border: 1px solid var(--secondary);
+ 
+    
+}
+.navfooter{
+
+    padding: 30px;
+    padding-left: 500px;
+   
+    
+    
+}
+.fa-brands{
+    padding: 7px;
+    margin: 7px;
+    border:1px solid black;
+    border-radius: 200px;
+  
+}
+.icon{
+    padding-left: 300px;
+}
+.logoo{
+    border-radius: 100px;
+    width: 150px;
+    height: 75px;
+    padding-left: 0px;
+    margin:20px ;
+}
