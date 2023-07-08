@@ -19,15 +19,12 @@
    
    
 }
-header{
-    position: sticky;
 
-}
 .headerSec{
     display: inline;
     padding: 35px;
-    
-    
+   
+ 
 }
 .logo{
     border-radius: 100px;
@@ -64,7 +61,8 @@ a:hover{
 }
 
 .first{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 30%;
     padding: 35px;
     padding-top: 80px;
    
@@ -102,15 +100,19 @@ p:hover{
     
    
 }
+
 .picture{
     width: 500px;
     height: 650px;
     border-radius: 12px;
     margin-left: 170px;
     transition: height 2s;
+    
+
 }
 .picture:hover{
     height: 500px;
+    transform: rotate(10deg);
     
 }
 
@@ -123,13 +125,16 @@ p:hover{
     transition: 2s;
 
 }
+
 button{
     border-radius: 4px;
-   
     margin: 10px;
     padding: 15px;
     border-color: var(--secondary);
 
+}
+button:hover{
+    background-color: transparent;
 }
 .primary{
     width: 300px;
@@ -164,6 +169,10 @@ button{
     padding: 7px;
     border: 2px solid var(--secondary);
     border-radius: 75px;
+    background:  var(--primary);
+}
+.art:hover{
+    background:silver ;
 }
 .review{
     display: flex;
@@ -222,4 +231,5 @@ footer{
     height: 75px;
     padding-left: 0px;
     margin:20px ;
+    border: 1px solid var(--secondary);
 }
