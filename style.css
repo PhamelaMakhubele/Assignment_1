@@ -71,6 +71,7 @@ a:hover{
     text-transform: uppercase;
 }
 
+
 .first{
     display: grid;
     grid-template-columns: 50% 30%;
@@ -78,16 +79,14 @@ a:hover{
     padding-top: 80px;
    
 }
-.firstSec{
 
-}
 p{
     font-family: 'Inter', sans-serif;
     font-size: medium;
     
 }
 p:hover{
-    font-style: italic;
+    
     font-weight: bold;
     cursor: pointer ;
     color: slateblue;
@@ -143,10 +142,10 @@ p:hover{
 }
 
 button{
-    border-radius: 4px;
+    border-radius: 25px;
     margin: 10px;
     padding: 15px;
-    border-color: var(--secondary);
+    border: 1px solid var(--secondary);
 
 }
 button:hover{
@@ -176,20 +175,24 @@ button:hover{
   margin: 14px;
   padding: 7px;
   border: 2px solid var(--secondary);
+  border-radius: 6px;
   
 
 }
+
 .art{
     width: 400px;
     height: 400px;
     margin: 14px;
     padding: 7px;
-    
     border-radius: 75px;
     background:  var(--primary);
+
 }
 .art:hover{
-    background:silver ;
+    background:white ;
+
+    
 }
 .review{
     display: flex;
