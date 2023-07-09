@@ -3,6 +3,11 @@
     --secondary:plum;
 
 }
+*{
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+
+}
 
 
 .container{
@@ -21,15 +26,19 @@
 }
 
 .headerSec{
-    display: inline;
+    display: inline-block;
     padding: 35px;
-   
- 
+    border-bottom: 1px solid var(--secondary);
+
 }
+
+
+
 .logo{
     border-radius: 100px;
     width: 150px;
     height: 75px;
+    margin-right: 600px;
     border: 1px solid var(--secondary);
    
   
@@ -48,7 +57,8 @@
 
 nav{
     float: right;
-    
+  
+   
 }
 a{
     margin: 7px;
@@ -58,6 +68,7 @@ a{
 }
 a:hover{
     color: var(--secondary);
+    text-transform: uppercase;
 }
 
 .first{
@@ -67,9 +78,8 @@ a:hover{
     padding-top: 80px;
    
 }
-
 .firstSec{
-    content: center;
+
 }
 p{
     font-family: 'Inter', sans-serif;
@@ -79,11 +89,14 @@ p{
 p:hover{
     font-style: italic;
     font-weight: bold;
-    cursor: pointer;
+    cursor: pointer ;
     color: slateblue;
+    text-transform: capitalize;
     
-
+    
 }
+
+  
 
 
 .tastement{
@@ -107,13 +120,16 @@ p:hover{
     border-radius: 12px;
     margin-left: 170px;
     transition: height 2s;
+    transform: rotate(10deg);
+    
     
 
 }
 .picture:hover{
     height: 500px;
-    transform: rotate(10deg);
+    transform: rotate(-10deg);
     
+
 }
 
 
@@ -159,6 +175,7 @@ button:hover{
   border: 12px;  
   margin: 14px;
   padding: 7px;
+  border: 2px solid var(--secondary);
   
 
 }
@@ -167,7 +184,7 @@ button:hover{
     height: 400px;
     margin: 14px;
     padding: 7px;
-    border: 2px solid var(--secondary);
+    
     border-radius: 75px;
     background:  var(--primary);
 }
