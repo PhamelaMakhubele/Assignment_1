@@ -1,6 +1,7 @@
 :root{
     --primary:lavender;
     --secondary:plum;
+    --headings: purple;
 
 }
 *{
@@ -13,7 +14,7 @@
 .container{
     width:1500px;
     height: max-content;
-    border: 1px solid plum;
+    border: 1px solid var(--secondary);
     border-radius: 2px;
     background-color: var(--primary);
     margin: 20px;
@@ -26,7 +27,7 @@
 }
 .heading{
     color:var(--primary);
-    -webkit-text-stroke:0.2vw purple ;
+    -webkit-text-stroke:0.2vw var(--headings);
     font-size: 3vw;
     animation: typing 4s steps(16)  infinite ;
     border-right: 2px dotted var(--secondary);
@@ -64,12 +65,13 @@
 }
 
 .headings{
-    color:purple;
+    color:var(--headings);
     text-align: center;
 }
 
 .heading{
-    color:purple;
+    color:var(--headings);
+   
     
 }
 
@@ -81,7 +83,7 @@ nav{
 }
 a{
     margin: 7px;
-    color:purple;
+    color:var(--headings);
     text-decoration: none;
     
 }
