@@ -28,28 +28,9 @@
     color:var(--primary);
     -webkit-text-stroke:0.2vw purple ;
     font-size: 3vw;
-    animation: typing 4s steps(15) 2s forwards infinite;;
-}
-
-@keyframes typing{
-    to{
-     left: 100%;
-    }
- 
- }
-.heading::before,
-.heading::After{
-    content: "";
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    position: absolute;
-}
-.heading::before{
-    animation: typing 4s steps(15) 2s infinite;
    
 }
+
 
 .headerSec{
     display: inline-block;
