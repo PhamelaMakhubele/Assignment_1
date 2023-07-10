@@ -28,15 +28,16 @@
     color:var(--primary);
     -webkit-text-stroke:0.2vw purple ;
     font-size: 3vw;
-    animation: slideIn 1s ease-in-out infinite alternate;
+    animation: typing 4s steps(16)  infinite ;
+    border-right: 2px dotted var(--secondary);
    
 }
-@keyframes slideIn {
-    from {
-      transform: translateX(100%);
+@keyframes typing {
+    0% {
+      width: 0;
     }
-    to {
-      transform: translateX(0);
+    100% {
+      width:100% ;
     }
   }
   
